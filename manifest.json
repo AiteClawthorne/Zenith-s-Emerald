@@ -1,0 +1,8 @@
+{
+  "name": "Zenith's Emerald",
+  "author": "Aite",
+  "version": "0.1.0",
+  "minAppVersion": "0.15.0",
+  "description": "A clean, animation-free dark emerald theme with subtle purple accents. Built for performance and clarity.",
+  "isDesktopOnly": false
+}

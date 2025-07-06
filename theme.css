@@ -1,0 +1,65 @@
+.theme-dark {
+  --background-primary: #0a140f;
+  --background-secondary: #101b16;
+  --background-modifier-border: #172620;
+  --background-modifier-hover: #14211b;
+
+  --text-normal: #c7d3c7;
+  --text-muted: #8f9c91;
+  --text-accent: #4a9a6b;
+  --text-accent-hover: #6cad8a;
+
+  --interactive-accent: #4a9a6b;
+  --interactive-accent-hover: #6cad8a;
+
+  --link-color: #4d9470;
+  --link-color-hover: #72b290;
+
+  --code-background: #0f1a15;
+  --code-normal: #a6c1ae;
+
+  --callout-border-color: #2a3e32;
+  --callout-title-color: #649976;
+
+  --tag-background: #14211b;
+  --tag-color: #6a9278;
+  --tag-background-hover: #1c2c23;
+
+  --h1-color: #7fae8e;
+  --h2-color: #6b9e7e;
+  --h3-color: #588f6f;
+}
+
+/* Top tab panel + header bar */
+.workspace-tab-header-container,
+.workspace-tabs,
+.workspace-tab-header {
+  background-color: #101b16 !important;
+  border-bottom: 1px solid #172620 !important;
+}
+
+/* Active tab highlight */
+.workspace-tab-header.is-active {
+  background-color: #14211b !important;
+}
+
+/* Tab titles */
+.workspace-tab-header-inner-title {
+  color: #c7d3c7 !important;
+}
+.workspace-tab-header-inner-title:hover {
+  color: #a8b7a8 !important;
+}
+
+.workspace-split.mod-horizontal > .workspace-leaf-resize-handle,
+.workspace-split.mod-vertical > .workspace-leaf-resize-handle {
+  background-color: #172620 !important;
+}
+
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: var(--text-normal);
+}
